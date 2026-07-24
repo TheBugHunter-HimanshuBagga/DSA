@@ -17,7 +17,7 @@ public class LinearSearch {
     }
     // Recurssive
     static int helperLinearSearch(int arr[], int target, int n){
-        if(n == arr.length - 1){ // base case
+        if(n == arr.length){ // base case
             System.out.print("Not Found: ");
             return -1;
         }
