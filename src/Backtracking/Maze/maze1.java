@@ -8,9 +8,9 @@ public class maze1 {
         if(r == 1 || c == 1){
             return 1;
         }
-        int left = paths(r - 1, c);
-        int right = paths(r, c - 1);
-        //
-        return left + right;
+        int right = paths(r, c - 1); // since column is used up hence c - 1
+        int down = paths(r - 1, c); // since row is used up hence r - 1
+
+        return right + down;
     }
 }
