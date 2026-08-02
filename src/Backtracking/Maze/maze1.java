@@ -2,6 +2,7 @@ package Backtracking.Maze;
 
 public class maze1 {
     public static void main(String[] args) {
+        // print all paths
         System.out.println(paths(3, 3));
     }
     static int paths(int r, int c){
