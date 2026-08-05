@@ -1,4 +1,4 @@
-package Backtracking.Maze;
+package Backtracking.Maze.Level1;
 
 public class maze1 {
     public static void main(String[] args) {

@@ -1,7 +1,4 @@
-package Backtracking.Maze;
-
-import java.nio.file.Path;
-import java.nio.file.Paths;
+package Backtracking.Maze.Level1;
 
 public class maze4 {
     public static void main(String[] args) {
