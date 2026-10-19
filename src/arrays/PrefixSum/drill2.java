@@ -7,6 +7,7 @@ public class drill2 {
         int R = 3;
         int output = 0;
         // L = 1, R = 3 . Output = 10
+        // Range Sum Query
         int[] prefix = new int[arr.length];
         int index = 0;
 

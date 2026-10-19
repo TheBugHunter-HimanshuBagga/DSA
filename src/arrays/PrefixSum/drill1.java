@@ -4,7 +4,7 @@ public class drill1 {
     public static void main(String[] args) {
         int[] arr = {2,4,1,5,3};
         int n = arr.length;
-
+        // Prefix sum
         int[] prefix = new int[n];
         int index = 0;
 
